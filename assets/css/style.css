@@ -8,9 +8,7 @@ header.masthead .bg-circle {
   border-radius: 100%;
   background: linear-gradient(0deg, #2b88d8 0%, #71afe5 100%);
 }
-.navbar-inner {
-    background:transparent;
-}
+
 header.masthead {
   position: relative;
   overflow: hidden;
