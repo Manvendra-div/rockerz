@@ -12,9 +12,9 @@ if (userAgent.includes('Windows')) {
 
 if (userAgent.includes('Linux')) {
     if (userAgen.includes('Android')) {
-        osDetail.name='your device is not available'
-        osDetail.icon= 'fa-frown-o'
-        osDetails.link='#'
+        name='your device is not available'
+        icon= 'fa-frown-o'
+        link='#'
     }
     osDetails.name = 'Linux';
     osDetails.icon = 'fa-linux';
