@@ -18,7 +18,7 @@ if (userAgent.includes('Linux')) {
         name='your device is not available';
         icon= 'fa-frown-o';
         link='#';
-    };
+    }
 }
 updateOsDownloadButton(osDetails);
 afterClick(osDetails);
