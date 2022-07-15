@@ -11,7 +11,7 @@ if (userAgent.includes('Windows')) {
 }
 
 if (userAgent.includes('Linux')) {
-    if (userAgen.includes('Android')) {
+    if (userAgent.includes('Android')) {
         name='your device is not available'
         icon= 'fa-frown-o'
         link='#'
