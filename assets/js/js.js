@@ -11,14 +11,14 @@ if (userAgent.includes('Windows')) {
 }
 
 if (userAgent.includes('Linux')) {
-    if (userAgent.includes('Android')) {
-        osDetails.name='your device is not available';
-        osDetails.icon= 'fa-frown-o';
-        osDetails.link='#';
-    };
     osDetails.name = 'Linux';
     osDetails.icon = 'fa-linux';
     osDetails.link = "sorry.html";
+    if (userAgent.includes('Android')) {
+        name='your device is not available';
+        icon= 'fa-frown-o';
+        link='#';
+    };
 }
 updateOsDownloadButton(osDetails);
 afterClick(osDetails);
