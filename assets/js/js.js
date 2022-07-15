@@ -15,7 +15,7 @@ if (userAgent.includes('Linux')) {
         osDetails.name='your device is not available';
         osDetails.icon= 'fa-frown-o';
         osDetails.link='#';
-    }
+    };
     osDetails.name = 'Linux';
     osDetails.icon = 'fa-linux';
     osDetails.link = "sorry.html";
