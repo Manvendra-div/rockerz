@@ -7,7 +7,7 @@ let osDetails = {
 if (userAgent.includes('Windows')) {
     osDetails.name = 'Windows';
     osDetails.icon = 'fa-windows';
-    osDetails.link = "https://gitlab.com/Manvendra-div/rockerz-release/-/blob/main/rockerz_setup.exe";
+    osDetails.link = "https://gitlab.com/Manvendra-div/rockerz-release/-/raw/main/rockerz_setup.exe?inline=false";
 }
 
 if (userAgent.includes('Linux')) {
